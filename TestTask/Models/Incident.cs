@@ -9,6 +9,5 @@ namespace TestTask.Models
         [Required]
         public string Description { get; set; }
         public ICollection<Account> Accounts { get; set; }
-
     }
 }
